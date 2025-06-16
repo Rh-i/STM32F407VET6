@@ -12,3 +12,13 @@ int fputc(int ch, FILE *f)
 }
 
 // 实现重载回调函数部分
+
+// UART DMA接收完成回调函数
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+  if (huart->Instance == UART5) //陀螺仪数据读取
+  {
+    Process_DMA_Buffer();
+  }
+}
+
