@@ -36,6 +36,9 @@
                     "path": "../Core/Src/gpio.c"
                   },
                   {
+                    "path": "../Core/Src/adc.c"
+                  },
+                  {
                     "path": "../Core/Src/can.c"
                   },
                   {
@@ -49,9 +52,6 @@
                   },
                   {
                     "path": "../Core/Src/stm32f4xx_hal_msp.c"
-                  },
-                  {
-                    "path": "../Core/Src/adc.c"
                   }
                 ],
                 "folders": []
@@ -137,6 +137,15 @@
                 "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c"
               },
               {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c"
+              },
+              {
+                "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c"
+              },
+              {
                 "path": "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c"
               },
               {
@@ -218,7 +227,7 @@
   "deviceName": null,
   "packDir": null,
   "miscInfo": {
-    "uid": "3f85add3b3419812d1134fd5701517fb"
+    "uid": "39dde59a317d6fb803a86cfd82e6e3cd"
   },
   "targets": {
     "WHEELTEC_PS2Demo": {

@@ -16,6 +16,7 @@ void HWT906_Init()
 {
   // 启动UART5的DMA接收
   HAL_StatusTypeDef dma_status = HAL_UART_Receive_DMA(&huart5, rx_buffer, RX_BUFFER_SIZE);
+  __HAL_DMA_ENABLE_IT(&hdma_uart5_rx, DMA_IT_HT | DMA_IT_TC);
 }
 
 // 陀螺仪数据解析函数
