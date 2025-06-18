@@ -29,6 +29,12 @@
 /* USER CODE BEGIN Includes */
 #include "other.h"
 #include "HWT906.h"
+#include "bsp_ps2.h"
+
+#include "dm_motor_drv.h"
+#include "bsp_can.h"
+#include "dm_motor_ctrl.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

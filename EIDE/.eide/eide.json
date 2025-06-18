@@ -3,7 +3,8 @@
   "type": "ARM",
   "dependenceList": [],
   "srcDirs": [
-    "../Control"
+    "../Control",
+    "../DMH3510(F4)"
   ],
   "virtualFolder": {
     "name": "<virtual_root>",
@@ -381,7 +382,8 @@
           "../WHEELTEC_BSP",
           ".cmsis/include",
           "../MDK-ARM/RTE/_WHEELTEC_PS2Demo",
-          "../Control"
+          "../Control",
+          "../DMH3510(F4)"
         ],
         "libList": [],
         "defineList": [

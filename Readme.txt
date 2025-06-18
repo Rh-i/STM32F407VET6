@@ -30,9 +30,11 @@
 
 
 2.解释一下各个文件夹:
+(最后会进行统一的驱动文件管理，keil适配，makefile cmake也会以后学习)
 
   .vscode vscode工作区相关文件夹
   Control 个人写的驱动封装 未整理
+  DMH3510(F4) 达妙科技的CAN电机驱动 未了解如何使用
 
   Core HAL官方生成的主代码
   Drivers HAL官方驱动库
